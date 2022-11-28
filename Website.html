@@ -1,0 +1,80 @@
+//This is the website dev't of frontend
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOLO Tech</title>
+    <link rel="stylesheet" href="css/Style.css">
+
+</head>
+<body>
+    <div class="logo">
+        <h1>SOLO Tech</h1>
+        <h3>የቴክኖሎጂ ት/ትና መረጃ</h3>
+        <h2 id="h1">TECHNOLOGY TUTORIAL CENTER</h2>
+   </div> 
+    <div class="navbar" id="mynavbar">
+        <a href="#">HOME</a>
+                        <div class="dropdown">
+                            <button class="dropdownbtn">Design</button>
+                            <div class="dropdown-list">
+                                <a href="#">Web Development</a>
+                                <a href="#">Frontend Development</a>
+                                <a href="#">Backend Development</a>
+                                <a href="#">Mob App</a>
+                            </div>
+                        </div>
+        <div class="dropdown">
+            <button class="dropdownbtn">TUTORIALS</button>
+            <div class="dropdown-list">
+                <a href="#">HTML</a>
+                <a href="#">CSS</a>
+                <a href="#">JAVASCRIPT</a>
+                <a href="#">PHP</a>
+                <a href="#">MYSQL</a>
+                <a href="#">PYTHON</a>
+                <a href="#">JAVA</a>
+                <a href="#">C#</a>
+            </div>
+        </div>
+                            <div class="dropdown">
+                                <button class="dropdownbtn">CONTACT</button>
+                                <div class="dropdown-list">
+                                    <a href="#">WHATSAPP</a>
+                                    <a href="#">TELEGRAM</a>
+                                    <a href="#">INSTAGRAM</a>
+                                    <a href="#">FACEBOOK</a>
+                                    <a href="#">TWITTER</a>
+                                    <a href="#">YOUTUBE</a>
+                                </div>
+                            </div>
+                 <a href="#">ABOUT</a>
+                 <a class="ri" href="login/login.php">LOGIN</a>
+                 <a class="ri" href="login/index.php">SIGNUP</a>
+                 <a href="javascript:void(0);" style="font-size: 15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<div class="cont">
+    <h1>Learn <br><span>Technlogy</span></h1>
+    <p calss="para">This is the site where you can learn basic computer skills, any programming languages like<br> <b>java ,C++ ,HTML
+        ,Javascript , PHP </b>also other computer skills with <br>good atitude and full of knowledge. So please join and visit us. </p>
+
+         <button class="learn"><a href="#">Start Now</a></button>
+</div>
+    
+ <script>
+            function  myFunction() {
+        var x = document.getElementById('mynavbar');
+           if(x.className === "navbar") {
+               x.className += "responsive"; 
+        } 
+        else {
+              x.className = "navbar";
+        }
+    }
+   </script>
+    <footer class="End">
+    <p>&copy <b>All Rights are Reserved 2023</b></p>    
+    </footer>
+
+</body>
+</html>
